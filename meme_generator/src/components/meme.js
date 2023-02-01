@@ -9,3 +9,5 @@ export default function Meme() {
         </main>
     )
 }
+
+// Holds the main instance of the memes witht the button and the images
