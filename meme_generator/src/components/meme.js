@@ -10,4 +10,4 @@ export default function Meme() {
     )
 }
 
-// Holds the main instance of the memes witht the button and the images
+// This is the place where we store all the meme input and photos
