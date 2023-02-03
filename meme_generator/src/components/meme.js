@@ -20,4 +20,4 @@ export default function Meme() {
     )
 }
 
-// This is the place where we store all the meme input and photos
+// This is the place where we store all the meme input 
