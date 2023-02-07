@@ -9,3 +9,5 @@ export default function Header(){
         </div>
     )
 }
+
+//this is a static page that is just the header for the meme generator.
