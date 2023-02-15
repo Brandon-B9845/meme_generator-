@@ -6,13 +6,13 @@ export default function Meme() {
         bottomText : "",
         randomImage : ""
     })
-    const [allMemes, setAllMemes] = React.useState("")
+    const [allMemes, setAllMemes] = React.useState([])
     
     React.useEffect(() => {
         fetch("https://api.imgflip.com/get_memes")
             .then(res => res.json())
             .then(data => setAllMemes(data))
-    }, [meme])
+    }, [])
 
      function handleChange(event){
         const {name, value} = event.target
